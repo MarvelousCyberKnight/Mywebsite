@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dropdown>button {
+    background-size: 1355px;
+    position: relative;
+    left: 200px;
+    padding-right: 20px;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 10px;
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.dropbtn {
+    background-color: #123d4a;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #00e1ff;
+}
+
+.dropdown {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height: 57px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.navbar {
+    background-color: black;
+    position: relative;
+    bottom: 25px;
+}
+
+.logos {
+    width: 1355px;
+    height: 200px;
+}
+
+.logos>#nbkr {
+    position: absolute;
+    left: 500px;
+    border: 2px;
+}
+
+.logos>#naac {
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    border: 2px;
+    margin: 20px;
+}
+
+.logos>#ugc {
+    position: absolute;
+    left: 140px;
+    top: 5px;
+    border: 2px;
+    margin: 20px;
+}
+
+.logos>#aicte {
+    position: absolute;
+    left: 270px;
+    top: 17px;
+    border: 2px;
+    margin: 20px;
+}
+
+.logos>#grade {
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    border: 2px;
+    margin: 20px;
+}
+
+.logos>#nba {
+    position: absolute;
+    right: 120px;
+    margin: 20px;
+    top: 17px;
+}
+
+.logos>#res {
+    position: absolute;
+    right: 240px;
+    margin: 20px;
+    top: 17px;
+}
+
+.col1 {
+    position: absolute;
+    top: 450px;
+    left: 250px;
+    font-family: Ink Free;
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+}
+
+
+/* Style each of the sides
+with a fixed width and height */
+
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+
+
+/* Add animation to the slides */
+
+.slide-wrapper {
+    /* Calculate the total width on the
+basis of number of slides */
+    width: calc(728px * 4);
+    /* Specify the animation with the
+duration and speed */
+    animation: slide 15s ease infinite;
+}
+
+
+/* Set the background color
+of each of the slides */
+
+
+/* Define the animation
+for the slideshow */
+
+@keyframes slide {
+    /* Calculate the margin-left for
+each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
+
+.achivements {
+    position: absolute;
+    top: 300px;
+    right: 20px;
+}
+
+.col1 {
+    position: absolute;
+    top: 295px;
+    left: 40px;
+}
+
+.col11 {
+    position: absolute;
+    top: 790px;
+    right: 50px;
+}
+
+.col12 {
+    position: absolute;
+    top: 1300px;
+    left: 10px;
+}
+
+.events {
+    position: absolute;
+    top: 800px;
+    left: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.campuslife {
+    position: absolute;
+    top: 1300px;
+    right: 20px;
+}
+
+.ending {
+    position: absolute;
+    top: 2200px;
+    background-size: 2000px;
+    background-color: blue;
+}

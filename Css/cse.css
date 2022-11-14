@@ -1,0 +1,118 @@
+.bo {
+    margin-top: 0%;
+    border: 2px solid #123d4a;
+    padding: 20px 20px 20px 50px;
+    background-image: linear-gradient(to right, rgb(0, 74, 158), rgb(0, 229, 255));
+    color: white;
+    margin-bottom: 0%;
+}
+
+.cs {
+    border: 1px solid #123d4a;
+    padding: 5px 5px;
+    margin-bottom: 0%;
+    background-color: rgb(90, 90, 232);
+}
+
+.h {
+    border: 1px solid #123d4a;
+    padding: 4px 4px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: lightblue;
+}
+
+.foot {
+    border: 3px solid #123d4a;
+    padding-bottom: 100px;
+}
+
+.quote {
+    font-size: 150%;
+    position: relative;
+    left: 290px;
+}
+
+.str {
+    font-size: larger;
+}
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(237, 93, 129);
+    position: absolute;
+    top: 1390px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ql1 {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.ql2 {
+    position: absolute;
+    left: 500px;
+    top: 10px;
+}
+
+.ql3 {
+    position: absolute;
+    left: 1000px;
+    top: 10px;
+}
+
+.ql {
+    color: white;
+}
+
+
+/*.qlc1 {
+    position: relative;
+    right: 10px;
+}*/
+
+.qlc2 {
+    position: relative;
+    right: 25px
+}
+
+.qlc3 {
+    position: relative;
+    right: 25px;
+}
+
+.icons {
+    color: white;
+    float: right;
+    position: relative;
+    top: 165px;
+    right: 10px;
+    padding-right: 25px;
+}
+
+.inst {
+    position: absolute;
+    right: 15px;
+}
+
+.yout {
+    position: absolute;
+    right: 110px;
+}
+
+.link {
+    position: relative;
+    right: 140px;
+}
+
+.copy {
+    color: white;
+    position: relative;
+    top: 165px;
+    left: 700px;
+}

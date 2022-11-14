@@ -1,0 +1,78 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(237, 93, 129);
+    position: absolute;
+    top: 1800px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ql1 {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.ql2 {
+    position: absolute;
+    left: 500px;
+    top: 10px;
+}
+
+.ql3 {
+    position: absolute;
+    left: 1000px;
+    top: 10px;
+}
+
+.ql {
+    color: white;
+}
+
+
+/*.qlc1 {
+    position: relative;
+    right: 10px;
+}*/
+
+.qlc2 {
+    position: relative;
+    right: 25px
+}
+
+.qlc3 {
+    position: relative;
+    right: 25px;
+}
+
+.icons {
+    color: white;
+    float: right;
+    position: relative;
+    top: 165px;
+    right: 10px;
+    padding-right: 25px;
+}
+
+.inst {
+    position: absolute;
+    right: 15px;
+}
+
+.yout {
+    position: absolute;
+    right: 110px;
+}
+
+.link {
+    position: relative;
+    right: 140px;
+}
+
+.copy {
+    color: white;
+    position: relative;
+    top: 165px;
+    left: 700px;
+}
